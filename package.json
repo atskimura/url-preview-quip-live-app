@@ -1,0 +1,17 @@
+{
+    "name": "url-preview-quip-live-app",
+    "version": "0.0.1",
+    "description": "URL Preview Quip Live App",
+    "license": "MIT",
+    "scripts": {
+        "start": "NODE_ENV=development webpack-dev-server --https",
+        "build": "NODE_ENV=production webpack; create-quip-app pack ./app"
+    },
+    "author": "",
+    "devDependencies": {
+        "quip-apps-webpack-config": ">=0.0.39"
+    },
+    "dependencies": {
+        "opengraph-react": "^1.3.0"
+    }
+}
